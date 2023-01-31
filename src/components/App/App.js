@@ -4,16 +4,16 @@ import Menu from "../Menu/Menu";
 
 // Object with the 4 videos to play in the player.
 const VIDEOS = {
-  aventura: "https://www.youtube.com/watch?v=CsziEW_gYhU",
-  ozuna: "https://www.youtube.com/watch?v=K2kUyHgadQo",
-  tpain: "https://www.youtube.com/watch?v=yfX7mCHbroc",
-  sting: "https://www.youtube.com/watch?v=NlwIDxCjL-8",
+  fast: "https://content.codecademy.com/courses/React/react_video-fast.mp4",
+  slow: "https://content.codecademy.com/courses/React/react_video-slow.mp4",
+  cute: "https://content.codecademy.com/courses/React/react_video-cute.mp4",
+  eek: "https://content.codecademy.com/courses/React/react_video-eek.mp4",
 };
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { src: VIDEOS.aventura };
+    this.state = { src: VIDEOS.fast };
     this.chooseVideo = this.chooseVideo.bind(this);
   }
 

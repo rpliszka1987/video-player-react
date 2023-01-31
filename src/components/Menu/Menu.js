@@ -14,10 +14,10 @@ class Menu extends React.Component {
   render() {
     return (
       <form onClick={this.handleClick}>
-        <input type="radio" name="src" value="aventura" /> Aventura
-        <input type="radio" name="src" value="ozuna" /> Ozuna
-        <input type="radio" name="src" value="tpain" /> Tpain
-        <input type="radio" name="src" value="sting" /> Sting
+        <input type="radio" name="src" value="fast" /> Fast
+        <input type="radio" name="src" value="slow" /> Slow
+        <input type="radio" name="src" value="cute" /> Cute
+        <input type="radio" name="src" value="eek" /> Eek
       </form>
     );
   }
